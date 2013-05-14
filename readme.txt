@@ -136,7 +136,7 @@ Rachel’s plugin contains all the icons from Font Awesome. This plugin contains
 
 No, this plugin includes all icon sets from both [Font Awesome](http://fortawesome.github.com/Font-Awesome/) and [Font Awesome More](http://gregoryloucas.github.io/Font-Awesome-More/).
 
-= Is this plugin compatible with Rachel Baker's [Font Awesome Icons](http://rachelbaker.me/font-awesome-icons-wordpress-plugins/)? =
+= Is this plugin compatible with Rachel Baker's Font Awesome Icons Plugin? =
 
 No. You must deactivate and/or remove Font Awesome Icons plugin before activating this plugin, which is a superset of Font Awesome Icons.
 
