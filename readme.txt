@@ -1,5 +1,5 @@
 === Font Awesome More Icons ===
-Contributors: jr00ck, rachelbaker
+Contributors: jr00ck
 Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
 Donate link: http://blog.webguysaz.com/donate/
 Tags: icons, font-awesome, font-awesome-more, fontstrap, font icon, UI, icon font, bootstrap
@@ -148,6 +148,11 @@ No. It is completely independent of Twitter Bootstrap.
 
 Nope. No settings page is created. Just activate and start using. No configuration required.
 
+== Screenshots ==
+
+1. HTML code examples
+1. Shortcode examples
+1. PHP code examples
 
 == Changelog ==
 
