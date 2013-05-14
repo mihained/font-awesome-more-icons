@@ -10,7 +10,7 @@ License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
-Enables easy use of the Font Awesome icon font set, plus the additional icons from the Font Awesome More (aka Fontstrap) extension set, from within WordPress.  Icons can be inserted using either HTML, PHP or a shortcode.
+Enables Font Awesome icon font set plus icons from Font Awesome More (aka Fontstrap) extension set from within WordPress using HTML PHP or shortcodes.
 
 == Description ==
 
