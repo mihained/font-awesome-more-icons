@@ -95,8 +95,6 @@ __Author__
 
 *   [Web Guys](http://webguysaz.com)
 
-*	[Rachel Baker](http://rachelbaker.me)
-
 = Icons =
 
 [Font Awesome More](http://gregoryloucas.github.io/Font-Awesome-More/#icons-gLp)
@@ -109,7 +107,7 @@ __Author__
 
 1. Add shortcode to your posts, pages and even widgets to display a Font Awesome icon.
 
-The shortcode to use is `[icon name=name-of-icon]`, where name=X is the class of the icon you would like to use.
+The shortcode to use is `[icon name=X]`, where name=X is the class of the icon you would like to use.
 
 **Example:**
 
