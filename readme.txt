@@ -4,7 +4,7 @@ Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
 Donate link: http://blog.webguysaz.com/donate/
 Tags: icons, font-awesome, font-awesome-more, fontstrap, font icon, UI, icon font, bootstrap
 Requires at least: 3.0
-Tested up to: 3.5.1
+Tested up to: 3.6-beta3
 Stable tag: 3.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
