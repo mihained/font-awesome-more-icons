@@ -4,8 +4,8 @@ Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
 Donate link: http://blog.webguysaz.com/donate/
 Tags: icons, font-awesome, font-awesome-more, fontstrap, font icon, UI, icon font, bootstrap
 Requires at least: 3.0
-Tested up to: 3.6-beta3
-Stable tag: 3.1.1
+Tested up to: 3.6-beta4
+Stable tag: 3.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -153,6 +153,10 @@ Nope. No settings page is created. Just activate and start using. No configurati
 1. PHP code examples
 
 == Changelog ==
+
+= 3.2.1 =
+
+* Updated Font Awesome to 3.2.1, which includes 58 new icons
 
 = 3.1.1 =
 

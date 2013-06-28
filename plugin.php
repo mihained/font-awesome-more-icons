@@ -3,7 +3,7 @@
 Plugin Name: Font Awesome More Icons
 Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
 Description: Use the Font Awesome More (Fontstrap) icon set within WordPress. Icons can be inserted using either HTML, PHP or a shortcode.
-Version: 3.1.1
+Version: 3.2.1
 Author: Web Guys
 Author URI: http://webguysaz.com
 Author Email: jeremy@webguysaz.com
@@ -29,7 +29,7 @@ class FontAwesomeMore {
 
     public function register_plugin_styles() {
         global $wp_styles;
-        wp_enqueue_style( 'font-awesome-styles', 'http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css' );
+        wp_enqueue_style( 'font-awesome-styles', 'http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css' );
         wp_enqueue_style( 'font-awesome-corp-styles', plugins_url( 'assets/css/font-awesome-corp.css', __FILE__  ) );
         wp_enqueue_style( 'font-awesome-ext-styles', plugins_url( 'assets/css/font-awesome-ext.css', __FILE__  ) );
         wp_enqueue_style( 'font-awesome-social-styles', plugins_url( 'assets/css/font-awesome-social.css', __FILE__  ) );
