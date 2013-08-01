@@ -155,6 +155,7 @@ Nope. No settings page is created. Just activate and start using. No configurati
 1. HTML code examples
 1. Shortcode examples
 1. PHP code examples
+1. TinyMCE drop-down
 
 == Changelog ==
 
