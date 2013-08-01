@@ -4,8 +4,8 @@ Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
 Donate link: http://blog.webguysaz.com/donate/
 Tags: icons, font-awesome, font-awesome-more, fontstrap, font icon, UI, icon font, bootstrap
 Requires at least: 3.0
-Tested up to: 3.6-beta4
-Stable tag: 3.2.1
+Tested up to: 3.6
+Stable tag: 3.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,9 +14,12 @@ Enables Font Awesome icon font set plus icons from Font Awesome More (aka Fontst
 
 == Description ==
 
-Font Awesome More (Fontstrap) is a pictographic font set of over 300 icons. It includes all icons from the [Font Awesome](http://fortawesome.github.io/Font-Awesome/) set, plus additional icons from the [Fontstrap](http://gregoryloucas.github.io/Font-Awesome-More/) extension set. The icons are infitinely scalable and screen reader compatible.
+Font Awesome More (Fontstrap) is a pictographic font set of over 400 icons. It includes all icons from the [Font Awesome](http://fortawesome.github.io/Font-Awesome/) set, plus [additional icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/) from the [Fontstrap](http://gregoryloucas.github.io/Font-Awesome-More/) extension set. The icons are infitinely scalable and screen reader compatible.
 
-A full list of over 300 Font Awesome More (Fontstrap) icons is available: [http://gregoryloucas.github.io/Font-Awesome-More/#icons-gLp](http://gregoryloucas.github.io/Font-Awesome-More/#icons-gLp) (_Note:_ The list of icons is temporarily unavailable)
+A full list of all 400+ icons is available here:
+
+[Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/)
+[Font Awesome More (Fontstrap) icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/)
 
 To use any of the Font Awesome More icons on your WordPress site you have three options:
 
@@ -97,7 +100,8 @@ __Author__
 
 = Icons =
 
-[Font Awesome More](http://gregoryloucas.github.io/Font-Awesome-More/#icons-gLp)
+[Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/)
+[Font Awesome More (Fontstrap) icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/)
 
 == Installation ==
 
@@ -105,7 +109,7 @@ __Author__
 
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
-1. Add shortcode to your posts, pages and even widgets to display a Font Awesome icon.
+1. Add shortcode to your posts, pages and even widgets to display a Font Awesome icon. You can use the handy drop-down in WordPress Editor window to browse and click the icon you want and instantly have the shortcode inserted into your post/page for you.
 
 The shortcode to use is `[icon name=X]`, where name=X is the class of the icon you would like to use.
 
@@ -153,6 +157,17 @@ Nope. No settings page is created. Just activate and start using. No configurati
 1. PHP code examples
 
 == Changelog ==
+
+= 3.3 =
+
+* Fixed: Better handling of Font Awesome CDN while on https: (especially in Chrome)
+* Fixed: Removed duplicates from TinyMCE where new Font Awesome icons superseded older Font Awesome More icons
+* Fixed: Renamed any Font Awesome More icons where new Font Awesome icons had the same name but icon was significantly different
+* New: Added latest revisions from main Font Awesome plugin (with a few fixes noted below)
+** New: Added TinyMCE editor plugin, making it possible for the user to select font awesome glyphs from a drop-down list within the content editor.
+*** Fixed: Insert shortcode into WordPress TinyMCE editor instead of icon (WYSIWYG doesn't handle icon with text well)
+*** Fixed: Added missing icons from drop-down for new 3.2 Font Awesome icons
+** New: Added version number constant to cache bust assets for future plugin updates. (Thanks @rscarvalho)
 
 = 3.2.1 =
 
