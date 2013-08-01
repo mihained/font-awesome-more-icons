@@ -164,10 +164,10 @@ Nope. No settings page is created. Just activate and start using. No configurati
 * Fixed: Removed duplicates from TinyMCE where new Font Awesome icons superseded older Font Awesome More icons
 * Fixed: Renamed any Font Awesome More icons where new Font Awesome icons had the same name but icon was significantly different
 * New: Added latest revisions from main Font Awesome plugin (with a few fixes noted below)
-** New: Added TinyMCE editor plugin, making it possible for the user to select font awesome glyphs from a drop-down list within the content editor.
-*** Fixed: Insert shortcode into WordPress TinyMCE editor instead of icon (WYSIWYG doesn't handle icon with text well)
-*** Fixed: Added missing icons from drop-down for new 3.2 Font Awesome icons
-** New: Added version number constant to cache bust assets for future plugin updates. (Thanks @rscarvalho)
+* New: Added TinyMCE editor plugin, making it possible for the user to select font awesome glyphs from a drop-down list within the content editor.
+* Fixed: Insert shortcode into WordPress TinyMCE editor instead of icon (WYSIWYG doesn't handle icon with text well)
+* Fixed: Added missing icons from drop-down for new 3.2 Font Awesome icons
+* New: Added version number constant to cache bust assets for future plugin updates. (Thanks @rscarvalho)
 
 = 3.2.1 =
 
