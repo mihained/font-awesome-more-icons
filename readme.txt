@@ -19,7 +19,7 @@ Font Awesome More (Fontstrap) is a pictographic font set of over 400 icons. It i
 A full list of all 400+ icons is available here:
 
 [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/)  
-[Font Awesome More (Fontstrap) icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/)
+[Font Awesome More (Fontstrap) icons](http://blog.webguysaz.com/font-awesome-more-icon-list-plugin-version-3-3/)
 
 To use any of the Font Awesome More icons on your WordPress site you have three options:
 
