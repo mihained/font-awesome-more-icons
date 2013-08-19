@@ -100,7 +100,7 @@ __Author__
 
 = Icons =
 
-[Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/)
+[Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/)  
 [Font Awesome More (Fontstrap) icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/)
 
 == Installation ==
@@ -162,8 +162,8 @@ Nope. No settings page is created. Just activate and start using. No configurati
 
 = 3.4 =
 * New: Easy size option in shortcodes. Increase the icon size by using "size=" icon-large (33% increase), icon-2x, icon-3x, or icon-4x in shortcodes.
-* New: Easy title option in shortodes. Add a title (alt) attribute to icons to make text appear upon mouse hover of icon by using "title=[text]" in shortcodes.
-* Examples: see examples of the new size and title attributes by visiting 
+* New: Easy title option in shortcodes. Add a title (alt) attribute to icons to make text appear upon mouse hover of icon by using "title=[text]" in shortcodes.
+* Examples: see examples of the new size and title attributes by visiting http://blog.webguysaz.com/font-awesome-more-plugin-update-to-3-4/
 
 = 3.3 =
 
