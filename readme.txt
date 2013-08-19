@@ -67,15 +67,15 @@ Now you can easily set the size and a title/alt text to icons within shortcodes.
 
 WordPress icon (large size)
 
-[icon name="icon-wordpress" size="icon-large"]
+`[icon name="icon-wordpress" size="icon-large"]`
 
 Google icon (3x size)
 
-[icon name="icon-google" size="icon-3x"]
+`[icon name="icon-google" size="icon-3x"]`
 
 Google Chrome icon (4x size with title text)
 
-[icon name="icon-chrome" size="icon-4x" title="Use Google Chrome"]
+`[icon name="icon-chrome" size="icon-4x" title="Use Google Chrome"]`
 
 
 __Credits__
