@@ -2,7 +2,7 @@
 /*
 Plugin Name: Font Awesome More Icons
 Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
-Description: Use the Font Awesome More (Fontstrap) icon set within WordPress. Icons can be inserted using either HTML, PHP or a shortcode.
+Description: Easily use the Font Awesome icons in WordPress but with MORE icons and MORE features using HTML, shortcodes, or TinyMCE plugin.
 Version:  3.4
 Author: Web Guys
 Author URI: http://webguysaz.com
