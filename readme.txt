@@ -4,19 +4,22 @@ Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
 Donate link: http://blog.webguysaz.com/donate/
 Tags: icons, font-awesome, font-awesome-more, fontstrap, font icon, UI, icon font, bootstrap
 Requires at least: 3.0
-Tested up to: 3.6-beta4
-Stable tag: 3.2.1
+Tested up to: 3.6
+Stable tag: 3.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
-Enables Font Awesome icon font set plus icons from Font Awesome More (aka Fontstrap) extension set from within WordPress using HTML PHP or shortcodes.
+Easily use the Font Awesome icons in WordPress but with MORE icons and MORE features using HTML, shortcodes, or TinyMCE plugin.
 
 == Description ==
 
-Font Awesome More (Fontstrap) is a pictographic font set of over 300 icons. It includes all icons from the [Font Awesome](http://fortawesome.github.io/Font-Awesome/) set, plus additional icons from the [Fontstrap](http://gregoryloucas.github.io/Font-Awesome-More/) extension set. The icons are infitinely scalable and screen reader compatible.
+Font Awesome More (Fontstrap) is a pictographic font set of over 400 icons. It includes all icons from the [Font Awesome](http://fortawesome.github.io/Font-Awesome/) set, plus [additional icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/) from the [Fontstrap](http://gregoryloucas.github.io/Font-Awesome-More/) extension set. The icons are infitinely scalable and screen reader compatible.
 
-A full list of over 300 Font Awesome More (Fontstrap) icons is available: [http://gregoryloucas.github.io/Font-Awesome-More/#icons-gLp](http://gregoryloucas.github.io/Font-Awesome-More/#icons-gLp) (_Note:_ The list of icons is temporarily unavailable)
+A full list of all 400+ icons is available here:
+
+[Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/)  
+[Font Awesome More (Fontstrap) icons](http://blog.webguysaz.com/font-awesome-more-icon-list-plugin-version-3-3/)
 
 To use any of the Font Awesome More icons on your WordPress site you have three options:
 
@@ -57,22 +60,22 @@ Google Chrome icon
 
 `[icon name=icon-chrome]`
 
-__PHP Option__
+__New Shortcode Options__
 
-Within PHP you can call the shortcode functions and pass the appropriate shortcode attributes.
+Now you can easily set the size and a title/alt text to icons within shortcodes. Size options are large, 2x, 3x, or 4x.
 
 
-WordPress icon
+WordPress icon (large size)
 
-`<?php echo do_shortcode('[icon name="icon-wordpress"]'); ?>`
+[icon name="icon-wordpress" size="icon-large"]
 
-Google icon
+Google icon (3x size)
 
-`<?php echo do_shortcode('[icon name="icon-google"]'); ?>`
+[icon name="icon-google" size="icon-3x"]
 
-Google Chrome icon
+Google Chrome icon (with title text)
 
-`<?php echo do_shortcode('[icon name="icon-chrome"]'); ?>`
+[icon name="icon-chrome" title="Use Google Chrome"]
 
 
 __Credits__
@@ -97,7 +100,8 @@ __Author__
 
 = Icons =
 
-[Font Awesome More](http://gregoryloucas.github.io/Font-Awesome-More/#icons-gLp)
+[Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/)
+[Font Awesome More (Fontstrap) icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/)
 
 == Installation ==
 
@@ -105,7 +109,7 @@ __Author__
 
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
-1. Add shortcode to your posts, pages and even widgets to display a Font Awesome icon.
+1. Add shortcode to your posts, pages and even widgets to display a Font Awesome icon. You can use the handy drop-down in WordPress Editor window to browse and click the icon you want and instantly have the shortcode inserted into your post/page for you.
 
 The shortcode to use is `[icon name=X]`, where name=X is the class of the icon you would like to use.
 
@@ -118,17 +122,17 @@ The shortcode to use is `[icon name=X]`, where name=X is the class of the icon y
 
 All code examples on the Font Awesome site apply: [http://fortawesome.github.com/Font-Awesome/#code](http://fortawesome.github.com/Font-Awesome/#code)
 
-1. You can use PHP by calling the appropiate shortcode functions and passing the shortcode attributes.
+1. You can use shortcodes in posts, pages, and widgets by passing the shortcode attributes.
 
 **Example:**
 
-`<?php echo do_shortcode('[icon name="icon-wordpress"]'); ?>`
+[icon name="icon-wordpress" title="WordPress" size="icon-2x"]
 
 == Frequently Asked Questions ==
 
 = How is the plugin different from Rachel Baker’s Font Awesome Icons? =
 
-Rachel’s plugin contains all the icons from Font Awesome. This plugin contains all of those icons plus the additional icons provided by Font Awesome More (Fontstrap), which includes important icons like PayPal, YouTube, Skype, and WordPress, to name a few.
+Rachel’s plugin contains all the icons from Font Awesome. This plugin contains all of those icons plus the additional icons provided by Font Awesome More (Fontstrap), which includes important icons like PayPal, YouTube, Skype, and WordPress, to name a few. It also has a few more features like title/alt text and size options for your icons via shortcodes.
 
 = Does this plugin require a separate Font Awesome installation/plugin and Font Awesome More installation/plugin? =
 
@@ -151,8 +155,26 @@ Nope. No settings page is created. Just activate and start using. No configurati
 1. HTML code examples
 1. Shortcode examples
 1. PHP code examples
+1. TinyMCE drop-down
+1. Font Awesome More-specific icons not included in standard Font Awesome icon set
 
 == Changelog ==
+
+= 3.4 =
+* New: Easy size option in shortcodes. Increase the icon size by using "size=" icon-large (33% increase), icon-2x, icon-3x, or icon-4x in shortcodes.
+* New: Easy title option in shortodes. Add a title (alt) attribute to icons to make text appear upon mouse hover of icon by using "title=[text]" in shortcodes.
+* Examples: see examples of the new size and title attributes by visiting 
+
+= 3.3 =
+
+* Fixed: Better handling of Font Awesome CDN while on https: (especially in Chrome)
+* Fixed: Removed duplicates from TinyMCE where new Font Awesome icons superseded older Font Awesome More icons
+* Fixed: Renamed any Font Awesome More icons where new Font Awesome icons had the same name but icon was significantly different
+* New: Added latest revisions from main Font Awesome plugin (with a few fixes noted below)
+* New: Added TinyMCE editor plugin, making it possible for the user to select font awesome glyphs from a drop-down list within the content editor.
+* Fixed: Insert shortcode into WordPress TinyMCE editor instead of icon (WYSIWYG doesn't handle icon with text well)
+* Fixed: Added missing icons from drop-down for new 3.2 Font Awesome icons
+* New: Added version number constant to cache bust assets for future plugin updates. (Thanks @rscarvalho)
 
 = 3.2.1 =
 
