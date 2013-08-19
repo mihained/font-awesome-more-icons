@@ -73,9 +73,9 @@ Google icon (3x size)
 
 [icon name="icon-google" size="icon-3x"]
 
-Google Chrome icon (with title text)
+Google Chrome icon (4x size with title text)
 
-[icon name="icon-chrome" title="Use Google Chrome"]
+[icon name="icon-chrome" size="icon-4x" title="Use Google Chrome"]
 
 
 __Credits__
