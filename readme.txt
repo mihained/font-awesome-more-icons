@@ -5,12 +5,12 @@ Donate link: http://blog.webguysaz.com/donate/
 Tags: icons, font-awesome, font-awesome-more, fontstrap, font icon, UI, icon font, bootstrap
 Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 3.3
+Stable tag: 3.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
-Enables Font Awesome icon font set plus icons from Font Awesome More (aka Fontstrap) extension set from within WordPress using HTML PHP or shortcodes.
+Easily use the Font Awesome icons in WordPress but with MORE icons and MORE features using HTML, shortcodes, or TinyMCE plugin.
 
 == Description ==
 
@@ -60,22 +60,22 @@ Google Chrome icon
 
 `[icon name=icon-chrome]`
 
-__PHP Option__
+__New Shortcode Options__
 
-Within PHP you can call the shortcode functions and pass the appropriate shortcode attributes.
+Now you can easily set the size and a title/alt text to icons within shortcodes. Size options are large, 2x, 3x, or 4x.
 
 
-WordPress icon
+WordPress icon (large size)
 
-`<?php echo do_shortcode('[icon name="icon-wordpress"]'); ?>`
+[icon name="icon-wordpress" size="icon-large"]
 
-Google icon
+Google icon (3x size)
 
-`<?php echo do_shortcode('[icon name="icon-google"]'); ?>`
+[icon name="icon-google" size="icon-3x"]
 
-Google Chrome icon
+Google Chrome icon (with title text)
 
-`<?php echo do_shortcode('[icon name="icon-chrome"]'); ?>`
+[icon name="icon-chrome" title="Use Google Chrome"]
 
 
 __Credits__
@@ -122,17 +122,17 @@ The shortcode to use is `[icon name=X]`, where name=X is the class of the icon y
 
 All code examples on the Font Awesome site apply: [http://fortawesome.github.com/Font-Awesome/#code](http://fortawesome.github.com/Font-Awesome/#code)
 
-1. You can use PHP by calling the appropiate shortcode functions and passing the shortcode attributes.
+1. You can use shortcodes in posts, pages, and widgets by passing the shortcode attributes.
 
 **Example:**
 
-`<?php echo do_shortcode('[icon name="icon-wordpress"]'); ?>`
+[icon name="icon-wordpress" title="WordPress" size="icon-2x"]
 
 == Frequently Asked Questions ==
 
 = How is the plugin different from Rachel Baker’s Font Awesome Icons? =
 
-Rachel’s plugin contains all the icons from Font Awesome. This plugin contains all of those icons plus the additional icons provided by Font Awesome More (Fontstrap), which includes important icons like PayPal, YouTube, Skype, and WordPress, to name a few.
+Rachel’s plugin contains all the icons from Font Awesome. This plugin contains all of those icons plus the additional icons provided by Font Awesome More (Fontstrap), which includes important icons like PayPal, YouTube, Skype, and WordPress, to name a few. It also has a few more features like title/alt text and size options for your icons via shortcodes.
 
 = Does this plugin require a separate Font Awesome installation/plugin and Font Awesome More installation/plugin? =
 
@@ -159,6 +159,11 @@ Nope. No settings page is created. Just activate and start using. No configurati
 1. Font Awesome More-specific icons not included in standard Font Awesome icon set
 
 == Changelog ==
+
+= 3.4 =
+* New: Easy size option in shortcodes. Increase the icon size by using "size=" icon-large (33% increase), icon-2x, icon-3x, or icon-4x in shortcodes.
+* New: Easy title option in shortodes. Add a title (alt) attribute to icons to make text appear upon mouse hover of icon by using "title=[text]" in shortcodes.
+* Examples: see examples of the new size and title attributes by visiting 
 
 = 3.3 =
 
