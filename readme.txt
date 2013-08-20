@@ -5,7 +5,7 @@ Donate link: http://blog.webguysaz.com/donate/
 Tags: icons, font-awesome, font-awesome-more, fontstrap, font icon, UI, icon font, bootstrap
 Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 3.4
+Stable tag: 3.4.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -159,6 +159,9 @@ Nope. No settings page is created. Just activate and start using. No configurati
 1. Font Awesome More-specific icons not included in standard Font Awesome icon set
 
 == Changelog ==
+
+= 3.4.1 =
+* Fixed: reinserted automatic whitespacing after icons
 
 = 3.4 =
 * New: Easy size option in shortcodes. Increase the icon size by using "size=" icon-large (33% increase), icon-2x, icon-3x, or icon-4x in shortcodes.
