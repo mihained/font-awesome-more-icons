@@ -160,6 +160,10 @@ Nope. No settings page is created. Just activate and start using. No configurati
 
 == Changelog ==
 
+= 3.5 =
+* New: Shortcode option to remove whitespace after icon with "space=false"
+* New: "icon-" prefix no longer needed in shortcodes
+
 = 3.4.1 =
 * Fixed: reinserted automatic whitespacing after icons
 

@@ -3,7 +3,7 @@
 Plugin Name: Font Awesome More Icons
 Plugin URI: http://blog.webguysaz.com/font-awesome-more-icons-wordpress-plugin/
 Description: Easily use the Font Awesome icons in WordPress but with MORE icons and MORE features using HTML, shortcodes, or TinyMCE plugin.
-Version:  3.4.1
+Version:  3.5
 Author: Web Guys
 Author URI: http://webguysaz.com
 Author Email: jeremy@webguysaz.com
@@ -18,7 +18,7 @@ Credits:
 
 class FontAwesomeMore {
     private static $instance;
-    const VERSION = ' 3.4.1';
+    const VERSION = ' 3.5';
 
     private static function has_instance() {
         return isset(self::$instance) && self::$instance != null;
@@ -70,12 +70,14 @@ class FontAwesomeMore {
         extract( shortcode_atts( array(
                     'name'      => '',
                     'title'     => '',
-                    'size'      => ''
+                    'size'      => '',
+                    'space'     => ''
                 ), $params ) );
 
         $icon_title = $title ? 'title="' . $title . '" ' : '';
+        $space      = $space == 'false' ? '' : '&nbsp;';
 
-        $icon = '<i class="' . $name . ' ' . $size . '" ' . $icon_title . '>&nbsp;</i>';
+        $icon = '<i class="' . $name . ' ' . $size . '" ' . $icon_title . '>' . $space . '</i>';
 
         return $icon;
     }
