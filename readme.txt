@@ -162,7 +162,7 @@ Nope. No settings page is created. Just activate and start using. No configurati
 
 = 3.5 =
 * New: Shortcode option to remove whitespace after icon with "space=false"
-* New: "icon-" prefix no longer needed in shortcodes
+* New: "icon-" prefix no longer needed in shortcodes, in preparation for upcoming Font Awesome 4.0 changes
 
 = 3.4.1 =
 * Fixed: reinserted automatic whitespacing after icons

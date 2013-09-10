@@ -76,10 +76,19 @@ class FontAwesomeMore {
 
         $icon_title = $title ? 'title="' . $title . '" ' : '';
         $space      = $space == 'false' ? '' : '&nbsp;';
+        $name       = self::famPrefix($name);
+        $size       = self::famPrefix($size);
 
         $icon = '<i class="' . $name . ' ' . $size . '" ' . $icon_title . '>' . $space . '</i>';
 
         return $icon;
+    }
+
+    private function famPrefix($item){
+        if(stripos($item, 'icon-') === false){
+            $item = 'icon-' . $item;
+        }
+        return $item;
     }
 
     public function register_tinymce_plugin($plugin_array) {
