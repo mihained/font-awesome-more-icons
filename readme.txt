@@ -14,7 +14,7 @@ Easily use the Font Awesome icons in WordPress but with MORE icons and MORE feat
 
 == Description ==
 
-Font Awesome More (Fontstrap) is a pictographic font set of over 400 icons. It includes all icons from the [Font Awesome](http://fortawesome.github.io/Font-Awesome/) set, plus [additional icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/) from the [Fontstrap](http://gregoryloucas.github.io/Font-Awesome-More/) extension set. The icons are infitinely scalable and screen reader compatible.
+Font Awesome More (Fontstrap) provides easy use of all icons from the [Font Awesome](http://fortawesome.github.io/Font-Awesome/) set, but with [MORE icons](http://blog.webguysaz.com/font-awesome-more-fontstrap-icon-additions/) from the [Fontstrap](http://gregoryloucas.github.io/Font-Awesome-More/) extension set and with MORE features. The icons are infinitely scalable and screen reader compatible.
 
 A full list of all 400+ icons is available here:
 
@@ -23,62 +23,76 @@ A full list of all 400+ icons is available here:
 
 To use any of the Font Awesome More icons on your WordPress site you have three options:
 
-__HTML Option__
+= HTML Option =
 
 All code examples on the Font Awesome site apply: [http://gregoryloucas.github.io/Font-Awesome-More/#examples](http://gregoryloucas.github.io/Font-Awesome-More/#examples)
 
 **Examples**
 
-WordPress icon
+WordPress icon <i class="icon-wordpress"></i>
 
 `<i class="icon-wordpress"></i>`
 
-Google icon
+Google icon 2x size
 
-`<i class="icon-google"></i>`
+`<i class="icon-google icon-2x"></i>`
 
-Google Chrome icon
+Google Chrome icon large size
 
-`<i class="icon-chrome"></i>`
+`<i class="icon-chrome icon-large"></i>`
 
-__Shortcode Option__
+= Shortcode Option =
 
 Don't want to worry about HTML tags?  You can use a shortcode in your posts, pages and even widgets to display a Font Awesome More icon.
 
-The shortcode to use is `[icon name=name-of-icon]`, where name=X is the class of the icon you would like to use.
+*Note:* In my plugin (as of 3.5), the "icon-" prefix is no longer needed in shortcode attributes. This is in preperation for the [Font Awesome 4.0](http://blog.fontawesome.io/2013/06/04/upcoming-changes-in-font-awesome-3.2-and-4.0/) release that will change the prefixes. Therefore, I highly recommend that you only use the shortcode options for icons, and not HTML, so that the plugin can handle the prefixes for you and your icons will not break when Font Awesome 4.0 comes out.
 
 
 WordPress icon
 
-`[icon name=icon-wordpress]`
+`[icon name=wordpress]`
 
-Google icon
+Google icon 2x size
 
-`[icon name=icon-google]`
+`[icon name=google size=2x]`
 
-Google Chrome icon
+Google Chrome icon with title and no space after icon
 
-`[icon name=icon-chrome]`
+`[icon name=chrome title="Google Chrome" space=false]`
 
-__New Shortcode Options__
+PayPal icon using shortcode within PHP instead of using the HTML option (e.g. within your theme/template files)
+
+`<?php echo do_shortcode('[icon name=paypal]'); ?>`
+
+= New Shortcode Options since 3.5 =
+
+Now you can turn off the automatic spacing after an icon with "space=false". See screenshots for an example of results.
+
+In preperation for [Font Awesome 4.0](http://blog.fontawesome.io/2013/06/04/upcoming-changes-in-font-awesome-3.2-and-4.0/), you can also leave off the "icon-" prefix on your shortcode options, as that prefix will be changing. The plugin will automatically add the appropriate prefix for you.
+
+Evernote icon with no trailing space (note no "icon-" prefix)
+
+`[icon name=evernote space=false]`
+
+= New Shortcode Options since 3.4 =
 
 Now you can easily set the size and a title/alt text to icons within shortcodes. Size options are large, 2x, 3x, or 4x.
 
 
 WordPress icon (large size)
 
-`[icon name="icon-wordpress" size="icon-large"]`
+`[icon name="wordpress" size="large"]`
 
 Google icon (3x size)
 
-`[icon name="icon-google" size="icon-3x"]`
+`[icon name="google" size="3x"]`
 
 Google Chrome icon (4x size with title text)
 
-`[icon name="icon-chrome" size="icon-4x" title="Use Google Chrome"]`
+`[icon name="chrome" size="4x" title="Use Google Chrome"]`
 
 
-__Credits__
+= Credits =
 
 * The Font Awesome & Font Awesome More (Fontstrap) font is licensed under the [SIL Open Font License](http://scripts.sil.org/OFL).
 
@@ -94,7 +108,7 @@ __Credits__
 
 * This plugin is based off of [Font Awesome Icons](http://rachelbaker.me/font-awesome-icons-wordpress-plugins/) by Rachel Baker.
 
-__Author__
+= Author =
 
 *   [Web Guys](http://webguysaz.com)
 
@@ -111,11 +125,9 @@ __Author__
 
 1. Add shortcode to your posts, pages and even widgets to display a Font Awesome icon. You can use the handy drop-down in WordPress Editor window to browse and click the icon you want and instantly have the shortcode inserted into your post/page for you.
 
-The shortcode to use is `[icon name=X]`, where name=X is the class of the icon you would like to use.
-
 **Example:**
 
-`[icon name=icon-pencil]`
+`[icon name=pencil]`
 
 
 1. You can use HTML by adding the appropiate class to the `<i>` element.
@@ -126,7 +138,7 @@ All code examples on the Font Awesome site apply: [http://fortawesome.github.com
 
 **Example:**
 
-[icon name="icon-wordpress" title="WordPress" size="icon-2x"]
+`[icon name="wordpress" title="WordPress" size="2x"]`
 
 == Frequently Asked Questions ==
 
@@ -154,7 +166,7 @@ Nope. No settings page is created. Just activate and start using. No configurati
 
 1. HTML code examples
 1. Shortcode examples
-1. PHP code examples
+1. Shortcode example with no space option
 1. TinyMCE drop-down
 1. Font Awesome More-specific icons not included in standard Font Awesome icon set
 
@@ -168,7 +180,7 @@ Nope. No settings page is created. Just activate and start using. No configurati
 * Fixed: reinserted automatic whitespacing after icons
 
 = 3.4 =
-* New: Easy size option in shortcodes. Increase the icon size by using "size=" icon-large (33% increase), icon-2x, icon-3x, or icon-4x in shortcodes.
+* New: Easy size option in shortcodes. Increase the icon size by using "size=" "large" (33% increase), "2x", "3x", or "4x" in shortcodes.
 * New: Easy title option in shortcodes. Add a title (alt) attribute to icons to make text appear upon mouse hover of icon by using "title=[text]" in shortcodes.
 * Examples: see examples of the new size and title attributes by visiting http://blog.webguysaz.com/font-awesome-more-plugin-update-to-3-4/
 
@@ -195,3 +207,8 @@ Nope. No settings page is created. Just activate and start using. No configurati
 = 3.0.2 =
 
 * Initial release
+
+== Upgrade Notice ==
+
+= 3.5 =
+In preparation for the upcoming Font Awesome 4.0 release, this update removes the necessity to prefix shortcode options with "icon-". Please use shortcode options instead of HTML where possible to maintain compatibility with the future release.
